@@ -1,6 +1,6 @@
 <?php
 
-use PragmaRX\Countries\Package\Support\Collection;
+use Mohamedahmed00\Countries\Package\Support\Collection;
 
 if (! function_exists('array_sort_by_keys_recursive')) {
     /**
@@ -26,7 +26,7 @@ if (! function_exists('countriesCollect')) {
      * Check if array is multidimensional.
      *
      * @param  mixed|null  $data
-     * @return \PragmaRX\Countries\Package\Support\Collection
+     * @return \Mohamedahmed00\Countries\Package\Support\Collection
      */
     function countriesCollect($data = null)
     {

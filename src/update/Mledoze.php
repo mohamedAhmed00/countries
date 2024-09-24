@@ -1,9 +1,9 @@
 <?php
 
-namespace PragmaRX\Countries\Update;
+namespace Mohamedahmed00\Countries\Update;
 
-use PragmaRX\Coollection\Package\Coollection;
-use PragmaRX\Countries\Package\Support\Base;
+use Mohamedahmed00\Coollection\Package\Coollection;
+use Mohamedahmed00\Countries\Package\Support\Base;
 
 class Mledoze extends Base
 {
@@ -116,8 +116,8 @@ class Mledoze extends Base
     /**
      * Merge the two countries sources.
      *
-     * @param  \PragmaRX\Coollection\Package\Coollection  $mledoze
-     * @param  \PragmaRX\Coollection\Package\Coollection  $natural
+     * @param  \Mohamedahmed00\Coollection\Package\Coollection  $mledoze
+     * @param  \Mohamedahmed00\Coollection\Package\Coollection  $natural
      * @param  string  $suffix
      * @return mixed
      */

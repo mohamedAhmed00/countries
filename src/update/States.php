@@ -1,6 +1,6 @@
 <?php
 
-namespace PragmaRX\Countries\Update;
+namespace Mohamedahmed00\Countries\Update;
 
 class States
 {

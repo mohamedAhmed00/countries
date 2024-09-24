@@ -1,9 +1,9 @@
 <?php
 
-namespace PragmaRX\Countries\Update;
+namespace Mohamedahmed00\Countries\Update;
 
 use Exception;
-use PragmaRX\Countries\Package\Support\Base;
+use Mohamedahmed00\Countries\Package\Support\Base;
 
 class Currencies extends Base
 {

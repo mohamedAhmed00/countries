@@ -1,9 +1,9 @@
 <?php
 
-namespace PragmaRX\Countries\Package\Services;
+namespace Mohamedahmed00\Countries\Package\Services;
 
 use IlluminateAgnostic\Str\Support\Str;
-use PragmaRX\Coollection\Package\Coollection;
+use Mohamedahmed00\Coollection\Package\Coollection;
 
 class Hydrator
 {
@@ -379,9 +379,9 @@ class Hydrator
     /**
      * Hydrate a countries collection with languages.
      *
-     * @param  \PragmaRX\Coollection\Package\Coollection|array|\stdClass  $target
+     * @param  \Mohamedahmed00\Coollection\Package\Coollection|array|\stdClass  $target
      * @param  null  $elements
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \Mohamedahmed00\Coollection\Package\Coollection
      */
     public function hydrate($target, $elements = null)
     {

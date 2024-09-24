@@ -1,13 +1,13 @@
 <?php
 
-namespace PragmaRX\Countries\Package\Services;
+namespace Mohamedahmed00\Countries\Package\Services;
 
 class Config
 {
     /**
      * Configuration.
      *
-     * @var \PragmaRX\Coollection\Package\Coollection
+     * @var \Mohamedahmed00\Coollection\Package\Coollection
      */
     protected $config;
 
@@ -30,7 +30,7 @@ class Config
 
     /**
      * @param $key
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \Mohamedahmed00\Coollection\Package\Coollection
      */
     public function get($key)
     {

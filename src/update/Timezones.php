@@ -1,12 +1,12 @@
 <?php
 
-namespace PragmaRX\Countries\Update;
+namespace Mohamedahmed00\Countries\Update;
 
 use IlluminateAgnostic\Str\Support\Str;
-use PragmaRX\Coollection\Package\Coollection;
-use PragmaRX\Countries\Package\Services\Cache\Service as Cache;
-use PragmaRX\Countries\Package\Services\Config;
-use PragmaRX\Countries\Package\Support\Base;
+use Mohamedahmed00\Coollection\Package\Coollection;
+use Mohamedahmed00\Countries\Package\Services\Cache\Service as Cache;
+use Mohamedahmed00\Countries\Package\Services\Config;
+use Mohamedahmed00\Countries\Package\Support\Base;
 
 class Timezones extends Base
 {

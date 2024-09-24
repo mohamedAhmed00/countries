@@ -23,7 +23,7 @@
 ## 0.5.0 - 2018-01-22
 ### Changed
 - Package is now PHP agnostic
-- Laravel version is now pragmarx/countries-laravel
+- Laravel version is now mohamedahmed00/countries-laravel
 
 ## 0.1.0 - 2017-02-13
 ### Added

@@ -1,11 +1,11 @@
 <?php
 
-namespace PragmaRX\Countries\Package\Support;
+namespace Mohamedahmed00\Countries\Package\Support;
 
 use Closure;
 use IlluminateAgnostic\Arr\Support\Arr;
 use IlluminateAgnostic\Str\Support\Str;
-use PragmaRX\Coollection\Package\Coollection;
+use Mohamedahmed00\Coollection\Package\Coollection;
 
 class Collection extends Coollection
 {

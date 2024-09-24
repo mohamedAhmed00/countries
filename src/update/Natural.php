@@ -1,8 +1,8 @@
 <?php
 
-namespace PragmaRX\Countries\Update;
+namespace Mohamedahmed00\Countries\Update;
 
-use PragmaRX\Countries\Package\Support\Base;
+use Mohamedahmed00\Countries\Package\Support\Base;
 
 class Natural extends Base
 {
@@ -79,7 +79,7 @@ class Natural extends Base
     }
 
     /**
-     * @param  \PragmaRX\Coollection\Package\Coollection  $country
+     * @param  \Mohamedahmed00\Coollection\Package\Coollection  $country
      * @return mixed
      */
     public function fixNaturalOddCountries($country)

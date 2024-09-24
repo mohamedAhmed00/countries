@@ -5,7 +5,7 @@
 ![World Map](docs/world-map-political-of-the-2013-nations-online-project-best.jpg)
 
 <p align="center">
-    <a href="https://packagist.org/packages/pragmarx/countries"><img alt="Latest Stable Version" src="https://img.shields.io/packagist/v/pragmarx/countries.svg?style=flat-square"></a>
+    <a href="https://packagist.org/packages/mohamedahmed00/countries"><img alt="Latest Stable Version" src="https://img.shields.io/packagist/v/mohamedahmed00/countries.svg?style=flat-square"></a>
     <a href="/antonioribeiro/countries/blob/master/LICENSE.md"><img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square"></a>
     <a href="https://scrutinizer-yaml.com/g/antonioribeiro/countries/?branch=master"><img alt="Code Quality" src="https://img.shields.io/scrutinizer/g/antonioribeiro/countries.svg?style=flat-square"></a>
     <a href="https://scrutinizer-yaml.com/g/antonioribeiro/countries/?branch=master"><img alt="Build" src="https://img.shields.io/scrutinizer/build/g/antonioribeiro/countries.svg?style=flat-square"></a>
@@ -13,7 +13,7 @@
 <p align="center">
     <a href="https://scrutinizer-yaml.com/g/antonioribeiro/countries/?branch=master"><img alt="Coverage" src="https://img.shields.io/scrutinizer/coverage/g/antonioribeiro/countries.svg?style=flat-square"></a>
     <a href="https://travis-ci.org/antonioribeiro/countries"><img alt="PHP" src="https://img.shields.io/badge/PHP-7.0%20%7C%207.1%20%7C%207.2%20%7C%207.3-green.svg?style=flat"></a>
-    <a href="https://packagist.org/packages/pragmarx/countries"><img alt="Downloads" src="https://img.shields.io/packagist/dt/pragmarx/countries.svg?style=flat-square"></a>
+    <a href="https://packagist.org/packages/mohamedahmed00/countries"><img alt="Downloads" src="https://img.shields.io/packagist/dt/mohamedahmed00/countries.svg?style=flat-square"></a>
     <a href="https://styleci.io/repos/74829244"><img alt="StyleCI" src="https://styleci.io/repos/74829244/shield"></a>
 </p>
 
@@ -50,13 +50,13 @@ Amongst many other information you'll be able to plot country maps:
 Use Composer to install it:
 
 ```
-composer require pragmarx/countries
+composer require mohamedahmed00/countries
 ```
 
 ## Instantiating
 
 ```php
-use PragmaRX\Countries\Package\Countries;
+use Mohamedahmed00\Countries\Package\Countries;
 
 $countries = new Countries();
 
@@ -76,7 +76,7 @@ Should both return
 Overloading the default configuration:
 
 ```php
-use PragmaRX\Countries\Package\Services\Config;
+use Mohamedahmed00\Countries\Package\Services\Config;
 
 $countries = new Countries(new Config([
     'hydrate' => [
@@ -98,7 +98,7 @@ This package is not tied to Laravel and doesn't require it to be installed (we h
 To get all countries in the data base you just have to:
 
 ```php
-use PragmaRX\Countries\Package\Countries;
+use Mohamedahmed00\Countries\Package\Countries;
 
 $countries = new Countries();
 
@@ -271,7 +271,7 @@ $countries->where('lca3', 'por');
 #### Generate a list of all countries with code, using native name and common
 
 ```php
-app(PragmaRX\Countries\Package\Countries::class)
+app(Mohamedahmed00\Countries\Package\Countries::class)
 ->all()
 ->map(function ($country) {
     $commonName = $country->name->common;
@@ -588,7 +588,7 @@ $unitedStatesFlag =
 
 You can publish configuration by doing:
 ```
-php artisan vendor:publish --provider=PragmaRX\\Countries\\ServiceProvider
+php artisan vendor:publish --provider=Mohamedahmed00\\Countries\\ServiceProvider
 ```
 
 ## Data
@@ -612,7 +612,7 @@ If you find something wrong with data, you, please, have to ask the package mana
 This package comes with the `update.php` script, which you MUST use to update the data files. It will download all info from all packages and automatically build the `.json` (and some others like `.svg` too). This is how you do it:
 
 ``` bash
-cd vendor/pragmarx/countries
+cd vendor/mohamedahmed00/countries
 composer install
 php update.php
 ```

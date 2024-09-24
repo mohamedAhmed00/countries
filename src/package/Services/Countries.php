@@ -1,13 +1,13 @@
 <?php
 
-namespace PragmaRX\Countries\Package\Services;
+namespace Mohamedahmed00\Countries\Package\Services;
 
 use IlluminateAgnostic\Str\Support\Str;
-use PragmaRX\Coollection\Package\Coollection;
-use PragmaRX\Countries\Package\Data\Repository;
-use PragmaRX\Countries\Package\Services\Cache\Service as Cache;
-use PragmaRX\Countries\Package\Support\Base;
-use PragmaRX\Countries\Update\Updater;
+use Mohamedahmed00\Coollection\Package\Coollection;
+use Mohamedahmed00\Countries\Package\Data\Repository;
+use Mohamedahmed00\Countries\Package\Services\Cache\Service as Cache;
+use Mohamedahmed00\Countries\Package\Support\Base;
+use Mohamedahmed00\Countries\Update\Updater;
 
 class Countries extends Base
 {
@@ -67,7 +67,7 @@ class Countries extends Base
         Hydrator $hydrator = null,
         Repository $repository = null
     ) {
-        $a = new \PragmaRX\Countries\Package\Services\Cache\Service();
+        $a = new \Mohamedahmed00\Countries\Package\Services\Cache\Service();
 
         $this->helper = $this->instantiateHelper($helper);
 

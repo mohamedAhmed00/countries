@@ -1,6 +1,6 @@
 <?php
 
-namespace PragmaRX\Countries\Package\Services;
+namespace Mohamedahmed00\Countries\Package\Services;
 
 class Command
 {

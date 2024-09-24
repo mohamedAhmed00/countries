@@ -1,11 +1,11 @@
 <?php
 
-namespace PragmaRX\Countries\Package\Services\Cache\Managers;
+namespace Mohamedahmed00\Countries\Package\Services\Cache\Managers;
 
 use Closure;
 use Nette\Caching\Cache as NetteCache;
 use Nette\Caching\Storages\FileStorage;
-use PragmaRX\Countries\Package\Services\Config;
+use Mohamedahmed00\Countries\Package\Services\Config;
 use Psr\SimpleCache\CacheInterface;
 
 class Nette implements CacheInterface
@@ -61,7 +61,7 @@ class Nette implements CacheInterface
     public function getCacheDir()
     {
         if (\is_null($this->dir)) {
-            $this->dir = $this->config->cache->directory ?: sys_get_temp_dir().'/__PRAGMARX_COUNTRIES__/cache';
+            $this->dir = $this->config->cache->directory ?: sys_get_temp_dir().'/__Mohamedahmed00_COUNTRIES__/cache';
 
             if (! file_exists($this->dir)) {
                 mkdir($this->dir, 0755, true);

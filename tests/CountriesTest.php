@@ -1,13 +1,13 @@
 <?php
 
-namespace PragmaRX\Countries\Tests\Service;
+namespace Mohamedahmed00\Countries\Tests\Service;
 
 use PHPUnit\Framework\TestCase as PHPUnitTestCase;
-use PragmaRX\Coollection\Package\Coollection;
-use PragmaRX\Countries\Package\Countries;
-use PragmaRX\Countries\Update\Config as ServiceConfig;
-use PragmaRX\Countries\Update\Helper;
-use PragmaRX\Countries\Update\Updater;
+use Mohamedahmed00\Coollection\Package\Coollection;
+use Mohamedahmed00\Countries\Package\Countries;
+use Mohamedahmed00\Countries\Update\Config as ServiceConfig;
+use Mohamedahmed00\Countries\Update\Helper;
+use Mohamedahmed00\Countries\Update\Updater;
 
 class CountriesTest extends PHPUnitTestCase
 {

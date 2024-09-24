@@ -1,8 +1,8 @@
 <?php
 
-use PragmaRX\Countries\Update\Config as ServiceConfig;
-use PragmaRX\Countries\Update\Helper;
-use PragmaRX\Countries\Update\Updater;
+use Mohamedahmed00\Countries\Update\Config as ServiceConfig;
+use Mohamedahmed00\Countries\Update\Helper;
+use Mohamedahmed00\Countries\Update\Updater;
 
 require __DIR__.'/vendor/autoload.php';
 

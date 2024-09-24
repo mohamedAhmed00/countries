@@ -1,6 +1,6 @@
 <?php
 
-namespace PragmaRX\Countries\Package\Services;
+namespace Mohamedahmed00\Countries\Package\Services;
 
 use Exception;
 use IlluminateAgnostic\Str\Support\Str;
@@ -40,7 +40,7 @@ class Helper
      *
      * @param $file
      * @param  string  $dir
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \Mohamedahmed00\Coollection\Package\Coollection
      *
      * @throws Exception
      */
@@ -67,7 +67,7 @@ class Helper
      * Load json files from dir.
      *
      * @param $dir
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \Mohamedahmed00\Coollection\Package\Coollection
      */
     public function loadJsonFiles($dir)
     {

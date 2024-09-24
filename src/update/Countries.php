@@ -1,11 +1,11 @@
 <?php
 
-namespace PragmaRX\Countries\Update;
+namespace Mohamedahmed00\Countries\Update;
 
-use PragmaRX\Countries\Package\Countries as CountriesService;
-use PragmaRX\Countries\Package\Services\Cache\Service as Cache;
-use PragmaRX\Countries\Package\Services\Config;
-use PragmaRX\Countries\Package\Support\Base;
+use Mohamedahmed00\Countries\Package\Countries as CountriesService;
+use Mohamedahmed00\Countries\Package\Services\Cache\Service as Cache;
+use Mohamedahmed00\Countries\Package\Services\Config;
+use Mohamedahmed00\Countries\Package\Support\Base;
 
 class Countries extends Base
 {
@@ -92,7 +92,7 @@ class Countries extends Base
      * Build countries collection.
      *
      * @param $dataDir
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \Mohamedahmed00\Coollection\Package\Coollection
      */
     public function buildCountriesCoollection($dataDir)
     {

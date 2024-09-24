@@ -1,6 +1,6 @@
 <?php
 
-namespace PragmaRX\Countries\Update;
+namespace Mohamedahmed00\Countries\Update;
 
 class Config
 {
@@ -64,7 +64,7 @@ class Config
 
     /**
      * @param $key
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \Mohamedahmed00\Coollection\Package\Coollection
      */
     public function get($key)
     {

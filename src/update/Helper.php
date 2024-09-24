@@ -1,11 +1,11 @@
 <?php
 
-namespace PragmaRX\Countries\Update;
+namespace Mohamedahmed00\Countries\Update;
 
 use Exception;
 use IlluminateAgnostic\Str\Support\Str;
-use PragmaRX\Countries\Package\Services\Command;
-use PragmaRX\Countries\Package\Services\Helper as ServiceHelper;
+use Mohamedahmed00\Countries\Package\Services\Command;
+use Mohamedahmed00\Countries\Package\Services\Helper as ServiceHelper;
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;
 use ReflectionClass;
@@ -327,7 +327,7 @@ class Helper
      * Load a shapeFile.
      *
      * @param $dir
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \Mohamedahmed00\Coollection\Package\Coollection
      */
     public function shapeFile($dir)
     {
@@ -362,8 +362,8 @@ class Helper
     /**
      * Recursively change all array keys case.
      *
-     * @param  array|\PragmaRX\Coollection\Package\Coollection  $array
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @param  array|\Mohamedahmed00\Coollection\Package\Coollection  $array
+     * @return \Mohamedahmed00\Coollection\Package\Coollection
      */
     public function arrayKeysSnakeRecursive($array)
     {
@@ -384,7 +384,7 @@ class Helper
      * Load CSV file.
      *
      * @param $csv
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \Mohamedahmed00\Coollection\Package\Coollection
      */
     public function csvDecode($csv)
     {
@@ -474,7 +474,7 @@ class Helper
      * Load the shape file (DBF) to array.
      *
      * @param  string  $file
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \Mohamedahmed00\Coollection\Package\Coollection
      */
     public function loadShapeFile($file)
     {
@@ -503,7 +503,7 @@ class Helper
      * Load json files from dir.
      *
      * @param $dir
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \Mohamedahmed00\Coollection\Package\Coollection
      */
     public function loadJsonFiles($dir)
     {
@@ -590,7 +590,7 @@ class Helper
      *
      * @param $file
      * @param  string  $dir
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \Mohamedahmed00\Coollection\Package\Coollection
      *
      * @throws \Exception
      */
@@ -639,7 +639,7 @@ class Helper
     /**
      * Encode and pretty print json.
      *
-     * @param  array|\PragmaRX\Coollection\Package\Coollection  $data
+     * @param  array|\Mohamedahmed00\Coollection\Package\Coollection  $data
      * @return string
      */
     public function jsonEncode($data)

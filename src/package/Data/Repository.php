@@ -1,11 +1,11 @@
 <?php
 
-namespace PragmaRX\Countries\Package\Data;
+namespace Mohamedahmed00\Countries\Package\Data;
 
 use IlluminateAgnostic\Str\Support\Str;
-use PragmaRX\Countries\Package\Services\Cache\Service as Cache;
-use PragmaRX\Countries\Package\Services\Helper;
-use PragmaRX\Countries\Package\Services\Hydrator;
+use Mohamedahmed00\Countries\Package\Services\Cache\Service as Cache;
+use Mohamedahmed00\Countries\Package\Services\Helper;
+use Mohamedahmed00\Countries\Package\Services\Hydrator;
 use Psr\SimpleCache\CacheInterface as CacheContract;
 
 class Repository
@@ -143,7 +143,7 @@ class Repository
     /**
      * Load countries.
      *
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \Mohamedahmed00\Coollection\Package\Coollection
      */
     public function loadCountries()
     {
@@ -161,7 +161,7 @@ class Repository
     /**
      * Load countries json file.
      *
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \Mohamedahmed00\Coollection\Package\Coollection
      *
      * @throws \Exception
      */
@@ -196,7 +196,7 @@ class Repository
     /**
      * Get all countries.
      *
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \Mohamedahmed00\Coollection\Package\Coollection
      */
     public function all()
     {
@@ -206,7 +206,7 @@ class Repository
     /**
      * Get all currencies.
      *
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \Mohamedahmed00\Coollection\Package\Coollection
      */
     public function currencies()
     {
@@ -303,7 +303,7 @@ class Repository
      *
      * @param $collection
      * @param  null  $elements
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \Mohamedahmed00\Coollection\Package\Coollection
      */
     public function hydrate($collection, $elements = null)
     {
@@ -327,7 +327,7 @@ class Repository
      * Find a country timezone.
      *
      * @param $zoneId
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \Mohamedahmed00\Coollection\Package\Coollection
      */
     public function findTimezoneTime($zoneId)
     {

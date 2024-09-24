@@ -1,12 +1,12 @@
 <?php
 
-namespace PragmaRX\Countries\Package;
+namespace Mohamedahmed00\Countries\Package;
 
-use PragmaRX\Countries\Package\Data\Repository;
-use PragmaRX\Countries\Package\Services\Cache\Service as Cache;
-use PragmaRX\Countries\Package\Services\Countries as CountriesService;
-use PragmaRX\Countries\Package\Services\Helper;
-use PragmaRX\Countries\Package\Services\Hydrator;
+use Mohamedahmed00\Countries\Package\Data\Repository;
+use Mohamedahmed00\Countries\Package\Services\Cache\Service as Cache;
+use Mohamedahmed00\Countries\Package\Services\Countries as CountriesService;
+use Mohamedahmed00\Countries\Package\Services\Helper;
+use Mohamedahmed00\Countries\Package\Services\Hydrator;
 
 class Countries
 {

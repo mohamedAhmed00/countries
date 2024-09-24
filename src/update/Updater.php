@@ -1,14 +1,14 @@
 <?php
 
-namespace PragmaRX\Countries\Update;
+namespace Mohamedahmed00\Countries\Update;
 
 use Closure;
-use PragmaRX\Coollection\Package\Coollection;
-use PragmaRX\Countries\Package\Contracts\Config;
-use PragmaRX\Countries\Package\Services\Cache\Service as Cache;
-use PragmaRX\Countries\Package\Services\Command;
-use PragmaRX\Countries\Package\Services\Config as ConfigService;
-use PragmaRX\Countries\Package\Support\Base;
+use Mohamedahmed00\Coollection\Package\Coollection;
+use Mohamedahmed00\Countries\Package\Contracts\Config;
+use Mohamedahmed00\Countries\Package\Services\Cache\Service as Cache;
+use Mohamedahmed00\Countries\Package\Services\Command;
+use Mohamedahmed00\Countries\Package\Services\Config as ConfigService;
+use Mohamedahmed00\Countries\Package\Support\Base;
 
 /**
  * @codeCoverageIgnore
@@ -21,7 +21,7 @@ class Updater extends Base
     protected $command;
 
     /**
-     * @param  \PragmaRX\Coollection\Package\Coollection  $countries
+     * @param  \Mohamedahmed00\Coollection\Package\Coollection  $countries
      */
     protected $_countries;
 
@@ -31,52 +31,52 @@ class Updater extends Base
     protected $config;
 
     /**
-     * @param  \PragmaRX\Countries\Update\Helper  $helper
+     * @param  \Mohamedahmed00\Countries\Update\Helper  $helper
      */
     protected $helper;
 
     /**
-     * @param  \PragmaRX\Countries\Update\Rinvex  $rinvex
+     * @param  \Mohamedahmed00\Countries\Update\Rinvex  $rinvex
      */
     protected $rinvex;
 
     /**
-     * @param  \PragmaRX\Countries\Update\Natural  $natural
+     * @param  \Mohamedahmed00\Countries\Update\Natural  $natural
      */
     protected $natural;
 
     /**
-     * @param  \PragmaRX\Countries\Update\Mledoze  $mledoze
+     * @param  \Mohamedahmed00\Countries\Update\Mledoze  $mledoze
      */
     protected $mledoze;
 
     /**
-     * @param  \PragmaRX\Countries\Update\Countries  $countries
+     * @param  \Mohamedahmed00\Countries\Update\Countries  $countries
      */
     protected $countries;
 
     /**
-     * @param  \PragmaRX\Countries\Update\Cities  $cities
+     * @param  \Mohamedahmed00\Countries\Update\Cities  $cities
      */
     protected $cities;
 
     /**
-     * @param  \PragmaRX\Countries\Update\Currencies  $currencies
+     * @param  \Mohamedahmed00\Countries\Update\Currencies  $currencies
      */
     protected $currencies;
 
     /**
-     * @param  \PragmaRX\Countries\Update\States  $states
+     * @param  \Mohamedahmed00\Countries\Update\States  $states
      */
     protected $states;
 
     /**
-     * @param  \PragmaRX\Countries\Update\Taxes  $taxes
+     * @param  \Mohamedahmed00\Countries\Update\Taxes  $taxes
      */
     protected $taxes;
 
     /**
-     * @param  \PragmaRX\Countries\Update\Timezones  $timezones
+     * @param  \Mohamedahmed00\Countries\Update\Timezones  $timezones
      */
     protected $timezones;
 
@@ -140,7 +140,7 @@ class Updater extends Base
     }
 
     /**
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \Mohamedahmed00\Coollection\Package\Coollection
      */
     public function getCountries()
     {
@@ -200,9 +200,9 @@ class Updater extends Base
     /**
      * Add data sources to collection.
      *
-     * @param  \PragmaRX\Coollection\Package\Coollection  $record
+     * @param  \Mohamedahmed00\Coollection\Package\Coollection  $record
      * @param  string  $source
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \Mohamedahmed00\Coollection\Package\Coollection
      */
     public function addDataSource($record, $source)
     {
@@ -222,7 +222,7 @@ class Updater extends Base
     /**
      * @param $result
      * @param $type
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \Mohamedahmed00\Coollection\Package\Coollection
      */
     public function addRecordType($result, $type)
     {
@@ -232,8 +232,8 @@ class Updater extends Base
     }
 
     /**
-     * @param  \PragmaRX\Coollection\Package\Coollection  $mledoze
-     * @param  \PragmaRX\Coollection\Package\Coollection  $natural
+     * @param  \Mohamedahmed00\Coollection\Package\Coollection  $mledoze
+     * @param  \Mohamedahmed00\Coollection\Package\Coollection  $natural
      * @return array
      */
     public function findCountryByAnyField($mledoze, $natural)
@@ -257,8 +257,8 @@ class Updater extends Base
     }
 
     /**
-     * @param  \PragmaRX\Coollection\Package\Coollection  $on
-     * @param  \PragmaRX\Coollection\Package\Coollection  $by
+     * @param  \Mohamedahmed00\Coollection\Package\Coollection  $on
+     * @param  \Mohamedahmed00\Coollection\Package\Coollection  $by
      * @param $fields
      * @param $codeField
      * @return array
@@ -281,7 +281,7 @@ class Updater extends Base
      *
      * @param $dir
      * @param  Closure|null  $makeGroupKeyClosure
-     * @param  \PragmaRX\Coollection\Package\Coollection  $records
+     * @param  \Mohamedahmed00\Coollection\Package\Coollection  $records
      * @param  string|null  $groupKey
      */
     public function generateAllJsonFiles($dir, $makeGroupKeyClosure, $records, $groupKey)
@@ -320,7 +320,7 @@ class Updater extends Base
      * @param  Closure|null  $makeGroupKeyClosure
      * @param  Closure  $mergeData
      * @param  string  $groupKey
-     * @return \PragmaRX\Coollection\Package\Coollection
+     * @return \Mohamedahmed00\Coollection\Package\Coollection
      */
     public function generateJsonFiles($data, $dir, $normalizerClosure, $makeGroupKeyClosure, $mergeData, $groupKey = 'cca3')
     {

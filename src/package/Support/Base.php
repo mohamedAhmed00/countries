@@ -1,6 +1,6 @@
 <?php
 
-namespace PragmaRX\Countries\Package\Support;
+namespace Mohamedahmed00\Countries\Package\Support;
 
 class Base
 {

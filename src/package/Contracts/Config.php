@@ -1,6 +1,6 @@
 <?php
 
-namespace PragmaRX\Countries\Package\Contracts;
+namespace Mohamedahmed00\Countries\Package\Contracts;
 
 interface Config
 {
