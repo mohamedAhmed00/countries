@@ -28,7 +28,7 @@
 
     "require": {
         "php": ">=8.2",
-        "pragmarx/coollection": "^0.9",
+        "mohamedahmed00/coollection": "*",
         "psr/simple-cache": "^3.0",
         "nette/caching": "^3.3",
         "colinodell/json5": "^3.0"
